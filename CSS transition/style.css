@@ -1,0 +1,25 @@
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: gray;
+}
+div{
+    background-color: rgb(236, 17, 192);
+    width:200px;
+    height:200px;
+    text-align:center;
+    
+    transition-property: all;
+    transition: border-radius;
+    transition:.5s;
+    transition-timing-function:ease-in;
+    transition-delay:2s;
+    /*transition:all .5s ease-in 1s; eivabeu korte pari*/
+}
+div:hover{
+    border-radius:50%;
+    background-color: chocolate;
+}

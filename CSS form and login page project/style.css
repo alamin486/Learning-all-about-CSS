@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+main{
+    display:flex; 
+    display: inline-block;
+    padding:100;
+     
+}
+body{
+    background-color: blueviolet;
+    background-image:url("http://csshint.com/wp-content/uploads/2020/01/CSS-Animated-Backgrounds-2.gif")
+}
+div{
+    text-align: center;
+  
+    
+}
+div.login-form{
+    background-color: beige;
+display:inline-block;
+   width: 400px;
+  height: 400px;
+  
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #a875de;
+  
+  
+
+}
+div.login-form{
+    position:absolute;
+    left:358px;
+    
+}
+div.login-text{
+    position:absolute;
+    right:358px;
+    
+}
+div.login-text{
+    
+    display:inline-block;
+    width: 400px;
+   height: 400px;
+   
+   background-color:rgb(206, 206, 206);
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px #a875de;
+   
+}
+div.login-form,div.login-text{
+    position:absolute;
+    top:180px;
+    
+}
+i{
+    border:1px solid blue;
+    border-radius: 15px;
+    padding:6px;
+}
+i:hover{
+    color:red;
+    background-color: rgb(230, 233, 10);
+}
+h1.heading1,h1.heading2{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    padding:50px;
+}
+input.button1{
+    background-color:rgb(22, 176, 207);
+    height:30px;
+    width:70px;
+    border:1px solid rgb(206, 206, 206) ;
+    border-radius:5px;
+}
+input.button2{
+    background-color:rgb(22, 176, 207);
+    height:30px;
+    width:70px;
+    border:1px solid white ;
+    border-radius:5px;
+}
+input.email,input.password{
+    padding:5px;
+    background-color: #eae9e9;
+    border-radius: 5px;
+}
+input.button1:hover,input.button2:hover{
+    color:gold;
+    background-color: red;
+   
+}

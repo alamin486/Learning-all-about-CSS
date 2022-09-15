@@ -1,0 +1,32 @@
+Flex box:
+.........> Main axis
+.
+.
+.
+.
+Cross axis
+container property:
+disply:flex;
+Flex axis amra flex-direction diye change korte pari. Flex direction by defualt row hoye thake
+flex-direction: row-reverse; hocce reverse kore row ke.
+flex-direction: column; main axis ke column borabor nibe.
+flex-direction: column-reverse;
+flex-wrap: wrap;by deafult nowarp thake!
+flex-wrap: wrap-reverse;
+2ta ek satheu likhte pri:
+flex flow: flex-direction,flex-wrap;
+example:
+flex-flow:column wrap;
+justify-content:flex-start/flex-end/center/space-around/space-between/space-evenly;
+align-iteams:stretch/flex-start/flex-end/center;
+align-content:flex-start/end/center/space-between/space-evenly;
+
+iteam property:
+order:1/2/3....
+flex-grow:0/1/2....
+flex-shrink:1/2/3/... choto kora
+flex-basis:100px/.. itam choto boro hbe
+ ek satheu likhte pri:
+flex:grow shrink basis; 
+example:
+flex: 0 1 100px;

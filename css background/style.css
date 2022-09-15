@@ -1,0 +1,16 @@
+div {
+    height: 2000px;
+    padding: 50px;
+    
+    border: 5px dashed black;
+    background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+    background-size: 60%;
+    /*cover,%,*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*fixed,scroll*/
+    background-position: 80px 80px;
+    /*center,bottom center,left center,right bottom,center bottom, percent,px*/
+    background-clip: padding-box;
+    /*border-box,content-box*/
+}
