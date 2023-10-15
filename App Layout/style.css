@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 25px;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+}
+nav {
+  background-color: gray;
+  color: white;
+  grid-row: 1/-1;
+}
+menu {
+  background-color: rgb(130, 184, 238);
+  color: white;
+  grid-column: 2/-1;
+}
+aside {
+  color: black;
+  background-color: rgb(213, 179, 179);
+}
+section {
+  background-color: white;
+}
+nav,
+menu,
+section,
+main,
+aside {
+  padding: 24px;
+}
+button {
+  font-size: 16px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.trash {
+  background-color: rgba(236, 17, 17, 0.805);
+}
+section {
+  background-color: yellowgreen;
+  padding: 40px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.email {
+  color: black;
+  background-color: rgb(200, 215, 215);
+  height: 96px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
